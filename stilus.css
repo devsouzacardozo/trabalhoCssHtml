@@ -1,0 +1,105 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+ }
+ div#menu {
+    height: 40px;
+    width: 90%;
+    padding: 0;
+    margin: 0 auto ;
+    border: 1px solid #d7ffb3;
+ }
+ div#menu h1{   
+    width: 196px;
+    color: #fff;   
+    background: #263544;
+    float: left;
+    font: bold 15px Arial; 
+    text-align: left;
+    border: 1px solid #d7ffb3; 
+    padding: 5px 0 19px 5px;
+    margin: 0 auto;
+ }
+ div#menu span{     
+    border: 1px solid #d7ffb3; 
+    float: right;
+    width: 200px;
+    font: bold 15px Arial;
+    text-align: right; 
+    padding: 5px 30px 5px 20px;
+    margin: 5px 20px 0 20px;
+ }  
+
+ div#lateral-Esquerda{
+    height: 550px;   
+    width: 90%; 
+    background: #f2ffe6;
+    padding: 0;
+    margin: 0 auto;
+    border: 1px solid #d7ffb3;   
+
+ }
+ div#lateral-Esquerda p{    
+    width: 200px;
+    background: ;
+    font: bold 12px Arial;
+    color: #fff;    
+    text-align: left;
+    border: 1px solid #d7ffb3; 
+ }
+ div#lateral-Esquerda{
+    height: 550px;   
+    width: 90%; 
+    background: #f2ffe6;
+    padding: 0;
+    margin: 0 auto;
+    border: 1px solid #d7ffb3;   
+
+ }
+
+.navigation {
+  width: 202px;    
+}
+
+.mainmenu{
+    list-style: none;
+    padding: 0 0 300px 0;
+    height: 200px;
+    background: #263544;
+
+} 
+
+.submenu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.mainmenu a {
+  display: block;
+  background-color: #263544;
+  text-decoration: none;
+  padding: 10px;
+  color: #fff;
+}
+
+.mainmenu a:hover {
+    background-color: #C5C5C5;
+}
+.mainmenu li:hover .submenu {
+  display: block;
+  max-height: 200px;
+}
+.submenu a {
+  background-color: black;
+}
+.submenu a:hover {
+  background-color: #263544;
+}
+
+.submenu {
+  overflow: hidden;
+  max-height: 0;
+  -webkit-transition: all 0.1s ease-out;
+}
